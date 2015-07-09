@@ -2,3 +2,6 @@ extends layout
 
 block content
   h1 LinkedIn OAuth
+  
+  if profile
+    img(src=profile.pictureUrl)
